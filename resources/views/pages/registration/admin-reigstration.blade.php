@@ -19,7 +19,7 @@
                     </div>
                     
                     <div class="col-span-1">
-                        <label class="block text-sm font-medium">Hotel Name:</label>
+                        <label class="block text-sm font-medium">Hotel Name:</label>w
                         <input type="text" name="hotel_name" required class="w-full p-2 text-sm border rounded-md focus:ring focus:ring-blue-300">
                     </div>
     

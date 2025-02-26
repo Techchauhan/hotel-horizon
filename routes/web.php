@@ -16,6 +16,8 @@ Route::get('/login', function(){
 Route::get('/admin-register',   [ RegistrationController::class, 'adminRegistrationPage'])->name('admin.register');
 Route::post('/admin-register',   [ RegistrationController::class, 'adminRegister'])->name('admin.register');
 
+Route::get('/hotel-registration', [RegistrationController::class, 'hotelPageView'])->name('hotel.registration');
+Route::post('/hotel-registration', [RegistrationController::class, 'hotelRegistration'])->name('hotel.registration');
 
 
 //Other pages;

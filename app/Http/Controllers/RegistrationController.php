@@ -35,8 +35,13 @@ class RegistrationController extends Controller
             'address' => $request->address,
         ]);
 
-        return redirect()->back()->with('success', 'Admin Registered Successfully');
+        return redirect()->route('hotel.registration')->with('success', 'Admin Registered Successfully');
 
+    }
+
+
+    public function hotelPageView (){
+        return view('pages.registration.hotel-registration');
     }
 
 }
